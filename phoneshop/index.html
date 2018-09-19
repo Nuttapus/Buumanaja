@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .mySlides {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero is-danger is-small">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-active">Home</a>
+              <a class="navbar-item" href="contact.html">Contact us</a>
+              <span class="navbar-item">
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="hero-body">
+      <div class="container has-text-centered ">
+        <p class="title">
+          Buu Phone
+        </p>
+        <p class="subtitle">
+          ร้านมือถือที่ดีที่สุดในย่านบางแสน
+        </p>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+      </nav>
+    </div>
+  </section>
+
+  <div>
+    <div class="w3-content w3-section" style="max-width:100%">
+      <img class="mySlides" src="https://media-dtaconline.dtac.co.th/tigren/banners/iPhoneXR_SB_d_1920x650_th.jpg"
+        style="height:700px">
+      <img class="mySlides" src="http://www.ais.co.th/2017/herobanner/2017/new-iphone/th/iphone-xs-1600x500-th.jpg"
+        style="height:700px">
+      <img class="mySlides" src="https://assorted.downloads.oppo.com/static/archives/images/th/Smartphones/FIND%20X/FindX_1920x700.jpg"
+        style="height:700px">
+      <img class="mySlides" src="https://media-dtaconline.dtac.co.th/tigren/banners/Apple-Watch-Series-4_SB_d_1920x650_th.jpg"
+        style="height:700px">
+    </div>
+
+    <script>
+      var slideIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) { slideIndex = 1 }
+        x[slideIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <h3 class="title is-3">HILIGHT TODAY</h3>
+      <div class="columns">
+        <div class="column">
+          <figure class="image is-3by4">
+            <img src="./img/oppoF9.png">
+          </figure>
+          <strong class="has-text-info">OPPO F9</strong>
+        </div>
+
+        <div class="column">
+          <figure class="image is-3by4">
+            <img src="./img/Huaweinova3i.png">
+          </figure>
+          <strong class="has-text-info">Huawei nova 3i</strong>
+        </div>
+
+        <div class="column">
+          <figure class="image is-3by4">
+            <img src="./img/appleXr.jpg">
+          </figure>
+          <strong class="has-text-info">appleXr</strong>
+        </div>
+
+        <div class="column">
+          <figure class="image is-3by4">
+            <img src="./img/appleXs.jpg">
+          </figure>
+          <strong class="has-text-info">appleXs</strong>
+        </div>
+
+        <div class="column">
+          <figure class="image is-3by4">
+            <img src="./img/HuaweiP20_store.png">
+          </figure>
+          <strong class="has-text-info">HuaweiP20</strong>
+        </div>
+
+        <div class="column">
+          <figure class="image is-3by4">
+            <img src="./img/oppo3s.png">
+          </figure>
+          <strong class="has-text-info">OPPO 3s</strong>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h3 class="title is-3">Review สินค้า</h3>
+    </div>
+  </section>
+  <section>
+    <div class="tile is-ancestor.column is main">
+      <div class="tile is parent">
+        <article class="tile is-child box">
+          <p class="subtitle has-text-centered">Apple watch 4 </p>
+          <figure class="image is-100x100">
+            <img src="img/apple-watch-4.jpg">
+          </figure>
+          <div>
+            <input type="checkbox" class="read-more-state" id="post-1" />
+            <ul class="read-more-wrap">
+              <p> การออกแบบตามที่นักวิเคราะห์ Ming-Chi Kuo ได้กล่าวถึงการออกแบบของ Apple Watch Series 4
+                ที่จะมีการเพิ่มขนาดหน้าจอให้แสดงผลเต็มขอบโค้งมน ซึ่งทำให้หน้าจอแสดงผลใหญ่กว่าเดิมประมาณ 15%</p>
+              <p>เปลี่ยนปุ่มด้านข้างเป็นปุ่มสัมผัสมีรายงานจากก่อนหน้านี้ว่าปุ่ม Power ด้านข้างของ Apple Watch
+              </p>
+              <p class="read-more-target">รุ่นใหม่จะเป็นปุ่มแบบสัมผัส (Solid State) ที่ดูเหมือนไม่ใช่ปุ่ม
+                แต่สามารถรับแรงกดได้
+                และมีการตอบสนองด้วยการสั่นด้วยระบบ Taptic Engine เหมือนกับปุ่ม Home ใน iPhone 8
+                ส่วนปุ่ม Digital Crown
+                หรือเม็ดมะยมนั้นจะยังคงหมุนได้เหมือนเดิม แต่การกดจะถูกจำลองด้วยระบบ Taptic Engine เช่นเดียวกับปุ่ม
+                Power</p>
+            </ul>
+            <label for="post-1" class="read-more-trigger"></label>
+          </div>
+        </article>
+      </div>
+
+      <div class="tile is parent">
+        <article class="tile is-child box">
+          <p class="subtitle has-text-centered">IphoneXs </p>
+          <div class="sizeimg">
+            <figure class="image ">
+              <img src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-Xs-combo-gold-09122018_big.jpg.large.jpg">
+            </figure>
+          </div>
+          <br><br>
+          <div>
+            <input type="checkbox" class="read-more-state" id="post-2" />
+            <ul class="read-more-wrap">
+              <p> ในที่สุดแอปเปิลก็เปิดตัว iPhone รุ่นใหม่อย่างเป็นทางการแล้ว โดย iPhone รุ่นใหม่ในปีนี้จะใช้ชื่อว่า
+                iPhone Xs และ</p>
+              <p class="read-more-target">iPhone Xs Max มาพร้อมฟีเจอร์เด็ดอย่างชิป A12 Bionic ที่มาพร้อม CPU 6-core
+                และ GPU 4-core, สามารถกันน้ำได้ในระดับ IP68, กล้องดีขึ้น และอื่น ๆ อีกเพียบ<br><br>
+                <strong>ไฮไลท์สำคัญของ iPhone Xs และ iPhone Xs Max</strong><br>
+                iPhone Xs และ iPhone Xs Max ใช้จอ OLED แบบเดียวกันกับ iPhone X รุ่นก่อนหน้า โดย iPhone Xs
+                ใช้จอแนวทแยงขนาด 5.8 นิ้ว ส่วน iPhone Xs Max ใช้จอความกว้าง 6.5 นิ้ว</p>
+
+            </ul>
+            <label for="post-2" class="read-more-trigger"></label>
+          </div>
+        </article>
+      </div>
+
+      <div class="tile is parent">
+        <article class="tile is-child box">
+          <p class="subtitle has-text-centered">Samsung Galaxy Note 9 </p>
+          <figure class="image">
+            <img src="https://images.droidsans.com/wp-content/uploads/2018/07/Samsung-Galaxy-Note-9-Blue-1.jpg">
+          </figure>
+          <div>
+            <input type="checkbox" class="read-more-state" id="post-3" />
+            <ul class="read-more-wrap">
+              <p> เปิดตัวไปแล้วกับ Galaxy Note 9 ที่หลายๆ คนรอคอยดูกันอยู่ว่าจะมีอะไรมาใหม่และน่าตื่นเต้นบ้าง
+                ซึ่งก็เปิดตัวมาทำให้หลายๆ
+                คนอยากจะเป็นเจ้าของกันเลยก็ว่าได้กับมือถือรุ่น</p>
+              <p class="read-more-target">เรือธงที่เปิดตัวมาพร้อมกับความฉลาดล้ำกว่าเดิม
+                พร้อมหน้าจอไร้ขอบ Super AMOLED Infinity Display ขนาด 6.4 นิ้ว ความละเอียด Quad HD+
+                ทำงานบนระบบปฏิบัติการ Android 8.1 Oreo ผสานกับชิปเซ็ต Exynos 9810 Octa-Core พร้อม RAM 8GB
+                หน่วยความจำสูงสุด 521GB โดดเด่นด้วย ปากกา S Pen รุ่นใหม่ มี Bluetooth แบตเตอรี่ 4,000mAh กล้องหลังคู่
+                12 +12 ล้านพิกเซล, กล้องหน้า 8 ล้านพิกเซล รวมไปถึงผู้ช่วยฉลาดกว่าเดิม Bixby 2.0
+                พร้อมมาตรฐานการกันน้ำและฝุ่นระดับ IP68</p>
+            </ul>
+            <label for="post-3" class="read-more-trigger"></label>
+          </div>
+        </article>
+      </div>
+
+      <div class="tile is parent">
+        <article class="tile is-child box">
+          <p class="subtitle has-text-centered">VIVO X21 UD</p>
+          <div class="sizeimg">
+            <figure class="image">
+              <img src="data:image/jpeg;base64,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">
+            </figure>
+          </div>
+          <br><br>
+          <div>
+            <input type="checkbox" class="read-more-state" id="post-4" />
+            <ul class="read-more-wrap">
+              <p>หลังจาก vivo ไปเน้นตลาดกลางในช่วง 1-2 ปีที่ผ่านมา ทำเอาแฟนๆ รุ่นท็อปอย่างตระกูล X เซ็งไปตามๆ กัน
+                แต่มาปีนี้มันจะไม่เป็นอย่างนั้นแล้วครับ เพราะ vivo X21</p>
+                <p class="read-more-target">มือถือรุ่นแรกของโลกที่นำเอาเทคโนโลยีสแกนนิ้วฝังไว้บนกระจกหน้าจอได้ถูกนำเข้ามาวางจำหน่ายในประเทศไทยแล้ว
+                ว่าแต่นอกจากสแกนนิ้วบนหน้าจอแล้วยังมีอะไรอีกไหม ขอบอกว่าสเปคมันก็ไม่ธรรมดา มาอ่าน รีวิว vivo X21
+                ไปพร้อมๆ กันได้เลย</p>
+            </ul>
+            <label for="post-4" class="read-more-trigger"></label>
+          </div>
+        </article>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>BUU PHONE</strong> by <a href="https://www.facebook.com/Kn.NuttaPus">Inw KEN</a>. For education
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
